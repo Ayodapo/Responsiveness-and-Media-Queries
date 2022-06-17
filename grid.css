@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    background-color: black;
+    display:flex;
+    place-items:center;
+    height:100vh;
+}
+
+main{
+    
+    /* display:flex; */
+    justify-content: center;
+    /* width:50%; */
+    align-items: center;
+    display:grid;
+    gap: 10px;
+    margin:auto;
+    /* background-image:-webkit-repeating-linear-gradient(); */
+    
+}
+
+.bg{
+    background-color:lightcoral;
+    background-image: url("Image/bg-intro-desktop.png");
+    /* grid-area: bg;  */
+    text-align: left;
+    float:left;
+    padding:20%;
+
+}
+
+.top{
+    margin:10px;
+    padding: 0%;
+}
+
+.topdiv{
+    background-color:darkslateblue;
+    grid-area: topdiv;
+    
+}
+.bottomdiv{
+    background-color:ghostwhite ;
+    grid-area:bottomdiv ;
+}
+
+#button{
+    background-color:forestgreen;
+}
